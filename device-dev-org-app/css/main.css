@@ -1,0 +1,55 @@
+body {
+  margin: 1em;
+  font-family: helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 1em;
+}
+
+button {
+  padding: 1em;
+  background-color: #f1f1f1;
+  margin-bottom: 1em;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.addAssignment {
+  text-align: right;
+}
+
+.list {
+  display: grid;
+  grid-row-gap: 0.25em;
+}
+
+.listItem {
+  padding: 0.5em;
+  background-color: lightgrey;
+  border: 1px solid darkgrey;
+  font-size: 15px;
+}
+
+.listItemName {
+  padding-left: 0.5em;
+  display: inline;
+}
+
+.emailField, .passwordField {
+  display: grid;
+  padding: 10px 0;
+  width: 250px;
+  margin: auto;
+}
+
+.loginWelcome, .loginButtonContainer {
+  text-align: center;
+}
+
+.loginButton {
+  width: 250px;
+  margin-top: 20px;
+}
