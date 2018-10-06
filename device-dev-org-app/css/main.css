@@ -17,6 +17,16 @@ button {
   border-radius: 3px;
 }
 
+input {
+  border: none;
+  border-bottom: 2px solid lightgrey;
+  width: 280px;
+}
+
+input:focus {
+  outline: none;
+}
+
 .addAssignment {
   text-align: right;
 }
@@ -27,15 +37,28 @@ button {
 }
 
 .listItem {
-  padding: 0.5em;
-  background-color: lightgrey;
-  border: 1px solid darkgrey;
-  font-size: 15px;
+  font-size: 18px;
+  padding-top: 1em;
+}
+
+.dateDue {
+  font-size: 12px;
+  font-style: bold;
+  text-transform: uppercase;
+  color: grey;
 }
 
 .listItemName {
-  padding-left: 0.5em;
-  display: inline;
+  padding-bottom: 0.5em;
+  padding-top: 0.25em;
+  border-bottom: 1px solid darkgrey;
+}
+
+.sublist {
+  display: grid;
+  grid-row-gap: 0.25em;
+  padding: 1em;
+  font-size: 15px;
 }
 
 .emailField, .passwordField {
@@ -52,4 +75,12 @@ button {
 .loginButton {
   width: 250px;
   margin-top: 20px;
+}
+
+.newTaskForm {
+  display: grid;
+  grid-row-gap: 0.25em;
+  padding: 1em;
+  margin: auto;
+  justify-content: center;
 }
