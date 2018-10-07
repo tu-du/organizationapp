@@ -83,4 +83,19 @@ input:focus {
   padding: 1em;
   margin: auto;
   justify-content: center;
+  width: 320px;
+}
+
+.formSectionTitle {
+  padding-top: 1em;
+}
+
+.difficulty, .priority {
+justify-content: center;
+margin: auto;
+padding: 0.5em;
+}
+
+.select {
+  width: auto;
 }
