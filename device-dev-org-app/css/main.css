@@ -1,12 +1,19 @@
 body {
   margin: 1em;
   font-family: helvetica, sans-serif;
+  font-size: 14px;
 }
 
 h1 {
   font-size: 18px;
   font-weight: bold;
   padding-bottom: 1em;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: darkgrey;
 }
 
 button {
@@ -27,7 +34,7 @@ input:focus {
   outline: none;
 }
 
-.addAssignment {
+.addAssignment, .closeMenu {
   text-align: right;
 }
 
@@ -98,4 +105,20 @@ padding: 0.5em;
 
 .select {
   width: auto;
+}
+
+.navMenu {
+  display: grid;
+  grid-row-gap: 0.25em;
+  padding: 1em;
+  margin: auto;
+  width: 320px;
+}
+
+.closeMenu {
+  margin-bottom: 4em;
+}
+
+.navSection {
+  padding-bottom: 2em;
 }
