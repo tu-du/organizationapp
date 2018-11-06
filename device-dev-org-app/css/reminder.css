@@ -1,0 +1,127 @@
+ul, li {
+  list-style-type: none;
+}
+body {font-family: Helvetica, sans-serif;}
+
+.calendar {
+  padding: 20px;
+  text-align: center;
+  font-size: 1em;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  background: #003daa;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.calendar p {
+  display: inline-block;
+}
+
+.month {
+    padding: 30px 20px 10px 10px;
+    width: 100%;
+    background: #003daa;
+    text-align: left;
+    font-size: 1em;
+    color: #000000;
+
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: #fff;
+    font-size: 1.5em;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+}
+
+.month li {
+  display: inline-block;
+}
+
+.monthname {
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+.month .sec {
+  color: #fff;
+  opacity: 0.3;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 20px 0 10px 0px;
+    background-color:white;
+    font-size: .8em;
+    font-weight: 500;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #003daa;
+    text-align: center;
+}
+
+.days {
+    padding: 0px;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.4%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: .8em;
+    color: #000000;
+}
+
+.days li .active {
+    padding: 10px 14px 10px;
+    background: #4668db;
+    color: white;
+    border-radius: 100%;
+    opacity: 0.5;
+}
+/*
+.divider {
+  padding: 30px;
+  padding-top: 60px;
+  text-align: center;
+  color: #dadada;
+} */
+
+.upcoming {
+  font-family: Helvetica, sans-serif;
+  padding: 20px;
+}
+
+.upcoming p {
+  font-size: .8em;
+}
+
+.upcoming h1 {
+  font-size: .7em;
+}
+
+.upcoming h2 {
+  font-size: .8em;
+  background: #ddd;
+  width: 60px;
+  border-bottom-left-radius: 40% 40%;
+  border-bottom-right-radius: 40% 40%;
+  border-top-left-radius: 40% 40%;
+  border-top-right-radius: 40% 40%;
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+}
