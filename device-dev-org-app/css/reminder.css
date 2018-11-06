@@ -6,11 +6,12 @@ body {font-family: Helvetica, sans-serif;}
 .calendar {
   padding: 20px;
   text-align: center;
-  font-size: .6em;
+  font-size: 1em;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
-  background: #ddd;
+  background: #003daa;
   letter-spacing: 2px;
+  color: #fff;
 }
 
 .calendar p {
@@ -20,7 +21,7 @@ body {font-family: Helvetica, sans-serif;}
 .month {
     padding: 30px 20px 10px 10px;
     width: 100%;
-    background: #ddd;
+    background: #003daa;
     text-align: left;
     font-size: 1em;
     color: #000000;
@@ -33,7 +34,7 @@ body {font-family: Helvetica, sans-serif;}
 }
 
 .month ul li {
-    color: #666;
+    color: #fff;
     font-size: 1.5em;
     text-transform: lowercase;
     letter-spacing: 2px;
@@ -49,7 +50,8 @@ body {font-family: Helvetica, sans-serif;}
 }
 
 .month .sec {
-  color: #b8b8b8;
+  color: #fff;
+  opacity: 0.3;
 }
 
 .weekdays {
@@ -63,12 +65,12 @@ body {font-family: Helvetica, sans-serif;}
 .weekdays li {
     display: inline-block;
     width: 13.6%;
-    color: #a1a1a1;
+    color: #003daa;
     text-align: center;
 }
 
 .days {
-    padding: 10px 0px;
+    padding: 0px;
     margin: 0;
 }
 
@@ -84,18 +86,19 @@ body {font-family: Helvetica, sans-serif;}
 }
 
 .days li .active {
-    padding: 10px 10px 10px;
-    background: #b9b9b9;
+    padding: 10px 14px 10px;
+    background: #4668db;
     color: white;
-
+    border-radius: 100%;
+    opacity: 0.5;
 }
-
+/*
 .divider {
   padding: 30px;
   padding-top: 60px;
   text-align: center;
   color: #dadada;
-}
+} */
 
 .upcoming {
   font-family: Helvetica, sans-serif;
