@@ -1,37 +1,58 @@
 body {
-  margin: 1em;
   font-family: helvetica, sans-serif;
   font-size: 14px;
+  background-color: #FFFDF5;
+  color: #262626;
 }
 
 h1 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
-  padding-bottom: 1em;
+  padding: 1em 0;
+  text-align: center;
+  font-family: garamond, serif;
+  background-color: #003DAA;
+  color: #FFFDF5;
 }
 
 h2 {
   font-size: 16px;
   font-weight: bold;
-  color: darkgrey;
+  color: #003DAA;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #262626;
+  padding-bottom: 0.75em;
 }
 
 button {
   padding: 1em;
   background-color: #f1f1f1;
   margin-bottom: 1em;
-  border: 1px solid black;
+  border: 1px solid #262626;
   border-radius: 3px;
 }
 
 input {
   border: none;
-  border-bottom: 2px solid lightgrey;
+  border-bottom: 1px solid #262626;
   width: 280px;
+  background-color: #FFFDF5;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 input:focus {
   outline: none;
+}
+
+.container {
+  padding: 2em;
 }
 
 .addAssignment, .closeMenu {
@@ -68,20 +89,46 @@ input:focus {
   font-size: 15px;
 }
 
-.emailField, .passwordField {
-  display: grid;
-  padding: 10px 0;
-  width: 250px;
-  margin: auto;
+.loginContainer {
+  text-align: left;
+  padding-top: 10em;
+  padding-left: 2em;
 }
 
-.loginWelcome, .loginButtonContainer {
+.loginWelcome {
+  font-size: 34px;
+  font-weight: bold;
+  color: #262626;
+  padding-bottom: 2em;
+}
+
+.emailField, .passwordField {
+  display: grid;
+  padding: 1em 0;
+  width: 250px;
+  background-color: #FFFDF5;
+  font-size: 10px;
+  font-weight: bold;
+  color: #999999;
+}
+
+.loginButtonContainer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   text-align: center;
 }
 
 .loginButton {
-  width: 250px;
+  width: 100%;
   margin-top: 20px;
+  background-color: #003DAA;
+  padding: 1.5em;
+  color: #FFFDF5;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 0;
 }
 
 .newTaskForm {
@@ -121,4 +168,37 @@ padding: 0.5em;
 
 .navSection {
   padding-bottom: 2em;
+}
+
+.reminderslistItem {
+  padding: 2em 0;
+  border-bottom: 1px solid lightgrey;
+}
+
+.profilePic {
+  padding: 2em 4em 0 4em;
+}
+
+.profileInfo {
+  background-color: white;
+  width: 250px;
+  height: auto;
+  padding: 1em;
+  border: 1px solid lightgrey;
+  color: #999999;
+  font-size: 12px;
+  position: absolute;
+  bottom: -40px;
+  box-shadow: 6px 8px 40px 0 rgba(0, 0, 0, 0.2);
+}
+
+.profileName {
+  font-size: 32px;
+  font-weight: bold;
+  color: #262626;
+  padding-bottom: 0.25em;
+}
+
+.profileContainer {
+  position: relative;
 }
