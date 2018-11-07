@@ -10,13 +10,12 @@ body {
 .calendar {
   padding: 20px;
   text-align: center;
-  font-size: 1em;
-  font-family: Garamond, serif;
   font-weight: bold;
+  font-size: 25px;
+  font-family: Garamond, serif;
   background: #003daa;
   letter-spacing: 2px;
   color: #fff;
-  font-weight: bold;
 }
 
 .calendar p {
