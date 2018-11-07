@@ -5,6 +5,8 @@ ul, li {
 body {
   font-family: Helvetica, sans-serif;
   margin: 0;
+  background: #FFFDF5;
+
 }
 
 
@@ -13,7 +15,7 @@ body {
   text-align: center;
   font-weight: bold;
   font-size: 25px;
-  font-family: Garamond, serif;
+  font-family: Times;
   background: #003daa;
   letter-spacing: 2px;
   color: #fff;
@@ -64,6 +66,8 @@ body {
     background-color:white;
     font-size: .8em;
     font-weight: 500;
+    background: #FFFDF5;
+
 }
 
 .weekdays li {
@@ -76,6 +80,7 @@ body {
 .days {
     padding: 0px;
     margin: 0;
+    background: #FFFDF5;
 }
 
 .days li {
@@ -87,6 +92,8 @@ body {
     margin-top: 10px;
     font-size: .8em;
     color: #000000;
+    background: #FFFDF5;
+
 }
 
 .days li .active {
@@ -103,29 +110,3 @@ body {
   text-align: center;
   color: #dadada;
 } */
-
-.upcoming {
-  font-family: Helvetica, sans-serif;
-  padding: 20px;
-}
-
-.upcoming p {
-  font-size: .8em;
-}
-
-.upcoming h1 {
-  font-size: .7em;
-}
-
-.upcoming h2 {
-  font-size: .8em;
-  background: #ddd;
-  width: 60px;
-  border-bottom-left-radius: 40% 40%;
-  border-bottom-right-radius: 40% 40%;
-  border-top-left-radius: 40% 40%;
-  border-top-right-radius: 40% 40%;
-  display: inline-block;
-  padding: 10px;
-  text-align: center;
-}
