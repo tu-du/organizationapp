@@ -89,9 +89,14 @@ input:focus {
   font-size: 15px;
 }
 
+.loginGraphic {
+  width: 100%;
+  height: auto;
+}
+
 .loginContainer {
   text-align: left;
-  padding-top: 10em;
+  padding-top: 0.5em;
   padding-left: 2em;
 }
 
@@ -121,7 +126,6 @@ input:focus {
 
 .loginButton {
   width: 100%;
-  margin-top: 20px;
   background-color: #003DAA;
   padding: 1.5em;
   color: #FFFDF5;
@@ -129,6 +133,7 @@ input:focus {
   font-weight: bold;
   border: none;
   border-radius: 0;
+  margin: 0;
 }
 
 .newTaskForm {
