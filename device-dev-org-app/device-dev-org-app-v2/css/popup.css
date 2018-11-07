@@ -1,0 +1,26 @@
+.popup {
+  width: 200px;
+  height: 350px;
+  background-color: #FFFDF5;
+  font-family: Helvetica, sans-serif;
+  border: 1px solid black;
+  font-size: .6em;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30%;
+  display: block;
+  padding-top: 150px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.check {
+  width: 50%;
+  padding-bottom: 50px;
+}
+
+.checkbutton {
+  display: inline-block;
+  width: 30%;
+  padding: 20px 10px 0 10px;
+}
