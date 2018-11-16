@@ -56,8 +56,14 @@ input:focus {
   padding: 2em;
 }
 
-.addAssignment, .closeMenu {
-  text-align: right;
+.newTaskButton {
+  width: 80px;
+  height: auto;
+  border: none;
+  position: absolute;
+  top: 2em;
+  right: 1.5em;
+  background-color: transparent;
 }
 
 .list {
@@ -72,22 +78,34 @@ input:focus {
 
 .dateDue {
   font-size: 12px;
-  font-style: bold;
+  font-weight: bold;
   text-transform: uppercase;
-  color: grey;
+  color: #466DDB;
 }
 
 .listItemName {
   padding-bottom: 0.5em;
   padding-top: 0.25em;
-  border-bottom: 1px solid darkgrey;
 }
 
 .sublist {
   display: grid;
-  grid-row-gap: 0.25em;
-  padding: 1em;
+  padding: 1em 0;
   font-size: 15px;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-bottom: 1px solid #466DDB;
+}
+
+.taskAttribute {
+  display: flex;
+  position: relative;
+  color: #466DDB;
+  border-radius: 20px;
+  border: 2px solid #466DDB;
+  width: 100px;
+  justify-content: center;
+  padding: 0.5em;
+  font-size: 12px;
 }
 
 .loginGraphic {
@@ -118,14 +136,14 @@ input:focus {
   color: #999999;
 }
 
-.loginButtonContainer {
+.loginButtonContainer, .createTaskButtonContainer {
   position: fixed;
   bottom: 0;
   width: 100%;
   text-align: center;
 }
 
-.loginButton {
+.loginButton, .createTaskButton {
   width: 100%;
   background-color: #003DAA;
   padding: 1.5em;
@@ -139,25 +157,71 @@ input:focus {
 
 .newTaskForm {
   display: grid;
-  grid-row-gap: 0.25em;
-  padding: 1em;
+  padding-top: 4em;
   margin: auto;
   justify-content: center;
   width: 320px;
 }
 
+.closeWindow {
+  width: 40px;
+  height: auto;
+  border: none;
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  background-color: transparent;
+}
+
+.taskInput {
+  padding-top: 1.5em;
+}
+
+::placeholder {
+  color: #466DDB;
+  text-align: center;
+  opacity: 0.5;
+  padding-top: 0.5em;
+}
+
 .formSectionTitle {
-  padding-top: 1em;
+  padding: 1.5em 0;
+  font-weight: bold;
+  color: #003DAA;
 }
 
-.difficulty, .priority {
-justify-content: center;
-margin: auto;
-padding: 0.5em;
+.checkboxContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-.select {
-  width: auto;
+.difficultySelect input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.difficultySelect:hover {
+  background-color: #003DAA;
+  color: #FFFDF5;
+  font-weight: bold;
+}
+
+.difficultySelect {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  color: #003DAA;
+  border-radius: 20px;
+  border: 1px solid #003DAA;
+  width: 85px;
+  justify-content: center;
+  margin: auto;
+  padding: 0.5em;
+  font-weight: bold;
+  font-size: 12px;
 }
 
 .navMenu {

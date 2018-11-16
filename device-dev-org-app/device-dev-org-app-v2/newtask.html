@@ -12,33 +12,63 @@
 </head>
 
 <body>
-    <script src="js/main.js"></script>
+  <script src="js/main.js"></script>
 
   <div class="newTaskForm">
-    <input type="text" class="taskName" placeholder="Enter Task Name">
-      <p class="formSectionTitle">Difficulty</p>
-      <div class="difficulty">
-        <input type="radio" class="select">Low</input>
-        <input type="radio" class="select">Medium</input>
-        <input type="radio" class="select">High</input>
-    </div>
 
-    <p class="formSectionTitle">Priority Level</p>
-    <div class="priority">
-      <input type="radio" class="select">Low</input>
-      <input type="radio" class="select">Medium</input>
-      <input type="radio" class="select">High</input>
+    <input type="image" class="closeWindow" src="img/icons/no.png"></input>
+
+    <div class="taskInput">
+    <input type="text" placeholder="ENTER TASK NAME">
   </div>
 
-    <p class="formSectionTitle">Value of Assignment</p>
-    <div class="priority">
-      <input type="text" class="taskName" placeholder="%">
+<div class="taskInput">
+    <input type="text" class="taskInput" placeholder="ENTER PERCENTAGE VALUE">
   </div>
 
-    <p class="formSectionTitle">Deadline</p>
+    <p class="formSectionTitle">SELECT DIFFICULTY LEVEL</p>
 
-    <p class="createTaskButtonContainer"><button class="createTaskButton">Create Task</button></p>
+<div class="checkboxContainer">
+    <label class="difficultySelect">EASY
+      <input type="checkbox">
+      <span class="checkmark"></span>
+    </label>
+
+    <label class="difficultySelect">MODERATE
+      <input type="checkbox">
+      <span class="checkmark"></span>
+    </label>
+
+    <label class="difficultySelect">DIFFICULT
+      <input type="checkbox">
+      <span class="checkmark"></span>
+    </label>
   </div>
+
+
+    <p class="formSectionTitle">SELECT PRIORITY LEVEL</p>
+
+<div class="checkboxContainer">
+    <label class="difficultySelect">LOW
+      <input type="checkbox">
+      <span class="checkmark"></span>
+    </label>
+
+    <label class="difficultySelect">MEDIUM
+      <input type="checkbox">
+      <span class="checkmark"></span>
+    </label>
+
+    <label class="difficultySelect">HIGH
+      <input type="checkbox">
+      <span class="radicheckmarkoButton"></span>
+    </label>
+  </div>
+
+    <p class="formSectionTitle">SELECT DEADLINE</p>
+  </div>
+
+  <p class="createTaskButtonContainer"><button class="createTaskButton">Create Task</button></p>
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
