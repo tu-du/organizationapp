@@ -1,8 +1,59 @@
 
 body{
   font-size: 6px;
-  font-family: sans-serif;
+  font-family: Helvetica, sans-serif;
 }
+.calendarTitle {
+  padding: 30px 20px 10px 10px;
+  text-align: center;
+  font-size: 2em;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  background: #003daa;
+  letter-spacing: 2px;
+  color: #fff;
+  width: 100%;
+}
+
+.calendarTitle p {
+  display: inline-block;
+}
+.month {
+    padding: 30px 20px 10px 10px;
+    width: 100%;
+    background: #003daa;
+    text-align: left;
+    font-size: 1em;
+    color: #000000;
+
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: #fff;
+    font-size: 2em;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+}
+
+.month li {
+  display: inline-block;
+}
+
+.monthname {
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+.month .sec {
+  color: #fff;
+  opacity: 0.3;
+}
+
 .weekdays{
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -12,7 +63,9 @@ body{
   padding-top: 3%;
   padding-left: 3%;
   padding-right: 3%;
-  font-size: 8px;
+  font-size: 2em;
+  font-weight: bold;
+  color: #003daa;
 
 }
 .calendar {
@@ -21,7 +74,7 @@ body{
   grid-gap: 5px 5px;
   width: 100%;
   text-align: center;
-  justify-content: center;
+  font-size: 1em;
   padding-top: 6%;
   padding-left: 3%;
   padding-right: 3%;
@@ -29,21 +82,19 @@ body{
 
 }
 .calendar li {
-  background-color: #ddd;
-  padding: 5px 0px 30px;
+  background-color: #fff;
   font-size: 12px;
+  padding-top: 12px;
 }
+
 .calendar li.due {
-  background-color: #ADD8E6;
-  color: black;
-  font-size: 12px;
+
+ background: #4668db;
+  color: white;
+  opacity: 0.5;
+  padding:12px 5px 5px 5px;
 }
-.cmonth{
-  text-align: center;
-}
-.mcalendar{
-  text-align: center;
-}
+
 h1{
   text-align: center;
   font-size: 24px;
@@ -52,7 +103,7 @@ h1{
 }
 
 
-@media only screen and (max-width: 500px)  {
+@media only screen and (max-width: 800px)  {
     .calendar {
         width: auto;
         grid-gap: 1px 1px;

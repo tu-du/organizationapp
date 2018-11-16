@@ -1,9 +1,9 @@
 
 
 var duedates = [
-  {task: "&#9900", due: {y:2018, m:10, d:4} },
-  {task: "&#9900", due: {y:2018, m:10, d:16} },
-  {task: "&#9900", due: {y:2018, m:10, d:21} }
+  {task: "", due: {y:2018, m:10, d:4} },
+  {task: "", due: {y:2018, m:10, d:16} },
+  {task: "", due: {y:2018, m:10, d:21} }
 ];
 for (var date in duedates) {
   var due = duedates[date].due;
